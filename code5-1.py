@@ -1,4 +1,17 @@
 
+#関数の基本的な使い方 引数ありなし/戻り値ありなし
+def hello():
+    print("hello everyone!")
+
+def add(a,b):
+    return a+b
+
+hello()
+result = add(5,10)
+print(result)
+
+
+
 
 #5-1 見通しの悪いプログラム
 student_list = ["浅木","松田"]
